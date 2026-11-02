@@ -80,3 +80,31 @@ The tests compare the browser and scikit-learn coefficients and predictions, ver
 | dist/PROJECT_REPORT.md | Methodology, assumptions, formulas, results, and limitations |
 
 For a real business, include relevant promotions, stock availability, price changes, holidays, and distribution channels. Evaluate any extension on future time periods and against simple baselines before relying on it for ordering.
+
+## Deploy to Hugging Face Spaces
+
+Target: [Oageng/Predict_Sale](https://huggingface.co/spaces/Oageng/Predict_Sale).
+
+The workflow `.github/workflows/deploy-huggingface.yml` validates the forecasting engine, prepares the static app, and publishes it on relevant changes to `main`. It can also be run manually from GitHub Actions.
+
+Configure this one-time publisher in the Hugging Face Space's **Settings → Trusted Publishers**:
+
+| Field | Value |
+| --- | --- |
+| Provider | GitHub Actions |
+| Repository | `OagengKunene/Predict_Sale` |
+| Branch | `main` |
+| Workflow | `deploy-huggingface.yml` |
+| Access | Publishing/write; leave Read-only unchecked |
+
+The workflow exchanges GitHub's job identity for a short-lived token scoped to this Space. It does not require an account password or a stored `HF_TOKEN`. The publisher must be configured before the upload step can authenticate.
+
+`project/prepare_huggingface.py` copies the contents of `dist/` to the Space root, adds the Space card from `huggingface/README.md`, and checks required assets. This preserves the browser worker, demo data, and download paths. The Space uses `sdk: static` and `app_file: index.html`.
+
+To inspect the deployment files locally:
+
+```bash
+python project/prepare_huggingface.py --output /path/to/an/empty/output-directory
+```
+
+References: [Hugging Face Trusted Publishers](https://huggingface.co/docs/hub/trusted-publishers) and [Space configuration](https://huggingface.co/docs/hub/spaces-config-reference).
