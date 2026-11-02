@@ -1,0 +1,200 @@
+{
+  "data_source": "Synthetic demonstration only",
+  "seed": 20261102,
+  "observations": 4380,
+  "products": [
+    {
+      "product": "Moringa Capsules",
+      "selected": "ridge",
+      "annual": true,
+      "test": {
+        "mae": 4.1043195750381845,
+        "wape": 0.08621226414183734,
+        "rmse": 5.028892857766527,
+        "absoluteError": 114.92094810106917,
+        "totalActual": 1333.0
+      },
+      "ridge_test": {
+        "mae": 4.1043195750381845,
+        "wape": 0.08621226414183734,
+        "rmse": 5.028892857766527,
+        "absoluteError": 114.92094810106917,
+        "totalActual": 1333.0
+      },
+      "weekly_test": {
+        "mae": 4.75,
+        "wape": 0.09977494373593399,
+        "rmse": 6.09156325233046,
+        "absoluteError": 133.0,
+        "totalActual": 1333.0
+      },
+      "range_radius": 4.651225925012703,
+      "test_coverage": 0.6428571428571429,
+      "training_rows": 730,
+      "validation_days": 56,
+      "test_days": 28
+    },
+    {
+      "product": "Hibiscus Tea",
+      "selected": "ridge",
+      "annual": true,
+      "test": {
+        "mae": 2.8853200810279387,
+        "wape": 0.07798162381156591,
+        "rmse": 3.6599126970243647,
+        "absoluteError": 80.78896226878229,
+        "totalActual": 1036.0
+      },
+      "ridge_test": {
+        "mae": 2.8853200810279387,
+        "wape": 0.07798162381156591,
+        "rmse": 3.6599126970243647,
+        "absoluteError": 80.78896226878229,
+        "totalActual": 1036.0
+      },
+      "weekly_test": {
+        "mae": 3.9285714285714284,
+        "wape": 0.10617760617760617,
+        "rmse": 5.092010548749033,
+        "absoluteError": 110.0,
+        "totalActual": 1036.0
+      },
+      "range_radius": 4.569493091939133,
+      "test_coverage": 0.8571428571428571,
+      "training_rows": 730,
+      "validation_days": 56,
+      "test_days": 28
+    },
+    {
+      "product": "Spirulina Powder",
+      "selected": "ridge",
+      "annual": true,
+      "test": {
+        "mae": 2.620799329068391,
+        "wape": 0.09823611942960503,
+        "rmse": 3.0798406872981823,
+        "absoluteError": 73.38238121391495,
+        "totalActual": 747.0
+      },
+      "ridge_test": {
+        "mae": 2.620799329068391,
+        "wape": 0.09823611942960503,
+        "rmse": 3.0798406872981823,
+        "absoluteError": 73.38238121391495,
+        "totalActual": 747.0
+      },
+      "weekly_test": {
+        "mae": 4.464285714285714,
+        "wape": 0.16733601070950468,
+        "rmse": 5.254249980457996,
+        "absoluteError": 125.0,
+        "totalActual": 747.0
+      },
+      "range_radius": 4.24912337209723,
+      "test_coverage": 0.7857142857142857,
+      "training_rows": 730,
+      "validation_days": 56,
+      "test_days": 28
+    },
+    {
+      "product": "Baobab Blend",
+      "selected": "ridge",
+      "annual": true,
+      "test": {
+        "mae": 2.3635383958511658,
+        "wape": 0.06752966845289045,
+        "rmse": 3.237138097442332,
+        "absoluteError": 66.17907508383264,
+        "totalActual": 980.0
+      },
+      "ridge_test": {
+        "mae": 2.3635383958511658,
+        "wape": 0.06752966845289045,
+        "rmse": 3.237138097442332,
+        "absoluteError": 66.17907508383264,
+        "totalActual": 980.0
+      },
+      "weekly_test": {
+        "mae": 3.2857142857142856,
+        "wape": 0.09387755102040816,
+        "rmse": 3.863750953228149,
+        "absoluteError": 92.0,
+        "totalActual": 980.0
+      },
+      "range_radius": 5.046732260305539,
+      "test_coverage": 0.8571428571428571,
+      "training_rows": 730,
+      "validation_days": 56,
+      "test_days": 28
+    },
+    {
+      "product": "Ginger Tonic",
+      "selected": "ridge",
+      "annual": true,
+      "test": {
+        "mae": 3.628040734008934,
+        "wape": 0.05865192872531764,
+        "rmse": 4.622747055114416,
+        "absoluteError": 101.58514055225015,
+        "totalActual": 1732.0
+      },
+      "ridge_test": {
+        "mae": 3.628040734008934,
+        "wape": 0.05865192872531764,
+        "rmse": 4.622747055114416,
+        "absoluteError": 101.58514055225015,
+        "totalActual": 1732.0
+      },
+      "weekly_test": {
+        "mae": 6.571428571428571,
+        "wape": 0.10623556581986143,
+        "rmse": 7.928249671720919,
+        "absoluteError": 184.0,
+        "totalActual": 1732.0
+      },
+      "range_radius": 5.601281533187482,
+      "test_coverage": 0.8214285714285714,
+      "training_rows": 730,
+      "validation_days": 56,
+      "test_days": 28
+    },
+    {
+      "product": "Herbal Starter Kit",
+      "selected": "ridge",
+      "annual": true,
+      "test": {
+        "mae": 1.6741859021644625,
+        "wape": 0.08997544195893464,
+        "rmse": 2.04902187626207,
+        "absoluteError": 46.87720526060495,
+        "totalActual": 521.0
+      },
+      "ridge_test": {
+        "mae": 1.6741859021644625,
+        "wape": 0.08997544195893464,
+        "rmse": 2.04902187626207,
+        "absoluteError": 46.87720526060495,
+        "totalActual": 521.0
+      },
+      "weekly_test": {
+        "mae": 3.0357142857142856,
+        "wape": 0.16314779270633398,
+        "rmse": 3.560698165889862,
+        "absoluteError": 85.0,
+        "totalActual": 521.0
+      },
+      "range_radius": 4.227711563819831,
+      "test_coverage": 0.9642857142857143,
+      "training_rows": 730,
+      "validation_days": 56,
+      "test_days": 28
+    }
+  ],
+  "portfolio_test_wape": 0.07619053590808855,
+  "test_days": 28,
+  "validation_days": 56,
+  "alpha": 3.0,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scikit_learn": "1.8.0"
+}

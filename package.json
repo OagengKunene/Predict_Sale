@@ -1,0 +1,1 @@
+{"name":"salescast-ai","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node project/test_engine.mjs","start":"python -m http.server 8000 --directory dist"},"engines":{"node":">=18"}}

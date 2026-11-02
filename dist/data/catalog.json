@@ -1,0 +1,68 @@
+[
+  {
+    "product": "Moringa Capsules",
+    "sku": "MC-001",
+    "price": 129,
+    "base": 32,
+    "trend": 0.018,
+    "phase": 0.1,
+    "stock": 820,
+    "lead": 14,
+    "safety": 7
+  },
+  {
+    "product": "Hibiscus Tea",
+    "sku": "HT-002",
+    "price": 79,
+    "base": 24,
+    "trend": 0.012,
+    "phase": 1.1,
+    "stock": 270,
+    "lead": 10,
+    "safety": 7
+  },
+  {
+    "product": "Spirulina Powder",
+    "sku": "SP-003",
+    "price": 169,
+    "base": 18,
+    "trend": 0.008,
+    "phase": 2.2,
+    "stock": 700,
+    "lead": 14,
+    "safety": 7
+  },
+  {
+    "product": "Baobab Blend",
+    "sku": "BB-004",
+    "price": 99,
+    "base": 21,
+    "trend": 0.016,
+    "phase": 0.7,
+    "stock": 430,
+    "lead": 12,
+    "safety": 7
+  },
+  {
+    "product": "Ginger Tonic",
+    "sku": "GT-005",
+    "price": 65,
+    "base": 35,
+    "trend": 0.025,
+    "phase": 1.8,
+    "stock": 610,
+    "lead": 10,
+    "safety": 7
+  },
+  {
+    "product": "Herbal Starter Kit",
+    "sku": "HK-006",
+    "price": 249,
+    "base": 11,
+    "trend": 0.007,
+    "phase": 2.7,
+    "stock": 500,
+    "lead": 14,
+    "safety": 7
+  }
+]
